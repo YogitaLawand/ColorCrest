@@ -1,0 +1,48 @@
+/* Hero Section */
+.hero {
+  background: url('banner.jpg') center/cover no-repeat;
+  height: 100vh; /* full screen for desktop */
+  padding: 80px 20px;
+  
+}
+/*.navbar-custom {
+  padding: 15px 30px;
+}*/
+/* Card Images */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+footer {
+  padding: 20px 0;     /* Top & Bottom padding for height */
+  margin-top: 40px;    /* Space above the footer */
+  background-color: #222;
+  color: #fff;
+}
+
+/* Footer Icons */
+footer a {
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+footer a:hover {
+  color: #0d6efd;
+}
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto; /* adapt for tablets/mobiles */
+    padding: 60px 15px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  footer p {
+    font-size: 0.9rem;
+  }
+}
