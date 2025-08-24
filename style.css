@@ -5,13 +5,15 @@
   padding: 80px 20px;
   
 }
-/*.navbar-custom {
-  padding: 15px 30px;
-}*/
+.card {
+    min-height: 300px; 
+    min-height: 200px;/* Adjust based on your design */
+}
 /* Card Images */
 .card-img-top {
   height: 180px;
   object-fit: cover;
+ 
 }
 
 /* Smooth Scrolling */
@@ -33,7 +35,20 @@ footer a {
 }
 footer a:hover {
   color: #0d6efd;
+  
 }
+#category-details {
+  transition: all 0.3s ease-in-out;
+}
+
+#category-details img {
+  object-fit: cover;
+}
+.small-hero {
+  background: rgba(0, 0, 0, 0.5) url('/banner.jpg') center/cover no-repeat;
+  height: 40vh;
+}
+
 @media (max-width: 768px) {
   .hero-section {
     height: auto; /* adapt for tablets/mobiles */
