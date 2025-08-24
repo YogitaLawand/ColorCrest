@@ -22,7 +22,7 @@
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
           <li class="nav-item"><a class="nav-link" href="#why-choose">Why Choose Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contactForm">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -40,7 +40,7 @@
   <!-- Product Categories -->
   <section id="products" class="py-5">
     <div class="container">
-      <h2 class="text-center mb-5">Our Product Categories</h2>
+      <h2 class="text-center mb-5">Our Products</h2>
       <div class="row g-4">
         <!-- Interior Paints -->
         <div class="col-md-3">
@@ -48,7 +48,7 @@
             <img src="Interior paint.jpg" class="card-img-top" alt="Interior Paints" width="300" height="200">
             <div class="card-body">
               <h5 class="card-title">Interior Paints</h5>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="interior.html" target="_blank"class="btn btn-primary">Learn More</a>
             </div>
           </div>
         </div>
@@ -58,7 +58,7 @@
             <img src="Exterior paint.jpg" class="card-img-top" alt="Exterior Paints" width="300" height="200">
             <div class="card-body">
               <h5 class="card-title">Exterior Paints</h5>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="exterior.html" class="btn btn-primary">Learn More</a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
             <img src="Wood coating.jpg" class="card-img-top" alt="Wood Coatings" width="300" height="200">
             <div class="card-body">
               <h5 class="card-title">Wood Coatings</h5>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="wood.html" class="btn btn-primary">Learn More</a>
             </div>
           </div>
         </div>
@@ -78,13 +78,26 @@
             <img src="Metal paint.jpg" class="card-img-top" alt="Metal Paints" width="300" height="200" >
             <div class="card-body">
               <h5 class="card-title">Metal Paints</h5>
-              <a href="#" class="btn btn-primary">Learn More</a>
+              <a href="metal.html" class="btn btn-primary">Learn More</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- Hidden Category Details -->
+<section class="container my-5" id="category-details" style="display:none;">
+  <div class="card p-4 shadow">
+    <h3 id="category-title" class="text-center"></h3>
+    <p id="category-description" class="text-center"></p>
+    <div class="text-center my-3">
+      <img id="category-image" src="" class="img-fluid rounded" style="max-height:300px;" alt="">
+    </div>
+    <div class="text-center">
+      <button class="btn btn-secondary" onclick="hideCategory()">← Back to Products</button>
+    </div>
+  </div>
+</section>
 
   <!-- Why Choose Us -->
   <section id="why-choose" class="bg-light py-5">
@@ -141,9 +154,9 @@
   <footer class="bg-dark text-white text-center py-3">
     <p class="mb-1">© 2025 ColorCrest Paints</p>
     <div>
-      <a href="#" class="text-white me-3"><i class="fa-brands fa-facebook"></i></a>
-      <a href="#" class="text-white me-3"><i class="fa-brands fa-linkedin"></i></a>
-      <a href="#" class="text-white"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com" target="_blank" class="text-white me-3"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.linkedin.com" target="_blank" class="text-white me-3"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a>
     </div>
   </footer>
 
